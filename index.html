@@ -7,13 +7,13 @@
 </head>
 <body>
     <div id="usuario">
-
+    <p></p>
     </div>
     <script>
         let divUsuarios = document.querySelector('#usuarios')
         fetch("receitas.json").then((response) => {
             response.json().then((usuarios) =>{
-                console.log(usuarios);
+                console.log(receitas);
             })
         })
     </script>
